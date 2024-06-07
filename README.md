@@ -1,3 +1,6 @@
+![image](https://github.com/Koifman/QRadar-Rule-Manager/assets/9611126/bb88e977-e218-40cb-95e8-8aae3d541d97)
+
+
 # QRadar-Rule-Manager
 
 Python program that allows you to import / export rules directly from/to QRadar, also supports basic github integration which hopefully we'll be able to make into some form of detection-as-code.
