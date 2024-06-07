@@ -5,6 +5,7 @@ Python program that allows you to import / export rules directly from/to QRadar,
 How to install?
 1. Either download the compiled release under "Releases" page.
 2. Run the code directly. Requires the following:
+
 pip3 install pyqt6
 
 pip3 install pyqtdarktheme
