@@ -6,8 +6,11 @@ How to install?
 1. Either download the compiled release under "Releases" page.
 2. Run the code directly. Requires the following:
 pip3 install pyqt6
+
 pip3 install pyqtdarktheme
+
 pip3 install requests
+
 pip3 install PyGithub
 
 VIDEO:
