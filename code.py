@@ -244,10 +244,9 @@ class Ui_MainWindow(object):
         self.g = Github(auth=self.auth)
         self.repo =  self.g.get_user().get_repo(self.RepoNameLine.text())
         contents = self.repo.get_contents("")
-        while len(contents) > 1:
-                content_item = contents.pop(0)
-                if content_item.type == "dir":
-                        item = QStandardItem(content_item.name)
+        for item in contents:
+                if item.type == "dir":
+                        item = QStandardItem(item.name)
                         self.githubModel.appendRow(item)
 
     def on_directory_selected(self, selected):
