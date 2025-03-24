@@ -1,5 +1,6 @@
 ![image](https://github.com/Koifman/QRadar-Rule-Manager/assets/9611126/bb88e977-e218-40cb-95e8-8aae3d541d97)
 
+Check out a more recent version of QRadar Rule Manager -> https://github.com/thonau712/QRadar-Rule-Manager-Enhanced
 
 # QRadar-Rule-Manager
 
